@@ -1,0 +1,29 @@
+---
+title: "Analysis of Poultry Data"
+description: |
+  This set contains 600 rows describing poutry products as well as year, month and price. Given this data, we can analyze the change in market price for various cuts of poultry between the years 2004 and 2013. Over the course of a decade, the price of poutlry increases over a dollar. 
+author: Keith Bell
+date: 08-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+#Homework 2
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+data <- read.csv("~/Desktop/poultry_tidy - Sheet1.csv")
+```
+Here I am pulling in my CSV file from the DACSS classroom. The description of the dataset is linked [here](https://classroom.google.com/u/1/w/MzcxNTE5NjczMDky/tc/Mzc3NDkwNTc5NzU4).
+
+#Homework 3 
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
